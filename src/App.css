@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 0;
+  justify-content: center;
+  background-image: url('https://wallpapers.com/images/hd/star-wars-fantasy-7wry1swbjrgg2o7h.jpg');
+  background-size: cover;
+  background-color: black;
+}
+
+.starships-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.starship {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.StarWars {
+  color: red;
+  align-items: center;
+}
+
+p {
+  margin: 5px 0;
+  color: #777;
+}
